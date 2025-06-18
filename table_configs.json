@@ -1,0 +1,182 @@
+[
+    {
+      "table_key": "business_partners",
+      "source_gcs_folder": "business_partners",
+      "file_delimiter": ";",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "business_partners_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "sales_order_items",
+      "source_gcs_folder": "sales_order_items",
+      "file_delimiter": ";",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "sales_order_items_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "sales_orders",
+      "source_gcs_folder": "sales_orders",
+      "file_delimiter": ";",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "sales_orders_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "financial_transactions",
+      "source_gcs_folder": "financial_transactions",
+      "file_delimiter": ";",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "financial_transactions_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "customer",
+      "source_gcs_folder": "customer",
+      "file_delimiter": ",",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "customer_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "customers_hierarchy",
+      "source_gcs_folder": "customers_hierarchy",
+      "file_delimiter": ",",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "customers_hierarchy_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "customer_texts",
+      "source_gcs_folder": "customer_texts",
+      "file_delimiter": ",",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "customer_texts_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "customer_type",
+      "source_gcs_folder": "customer_type",
+      "file_delimiter": ",",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "customer_type_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "customer_type_texts",
+      "source_gcs_folder": "customer_type_texts",
+      "file_delimiter": ",",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "customer_type_texts_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "gl_accounts",
+      "source_gcs_folder": "gl_accounts",
+      "file_delimiter": ",",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "gl_accounts_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "gl_accounts_hierarchy",
+      "source_gcs_folder": "gl_accounts_hierarchy",
+      "file_delimiter": ",",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "gl_accounts_hierarchy_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "gl_accounts_texts",
+      "source_gcs_folder": "gl_accounts_texts",
+      "file_delimiter": ",",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "gl_accounts_texts_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "gl_account_type",
+      "source_gcs_folder": "gl_account_type",
+      "file_delimiter": ",",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "gl_account_type_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "gl_account_type_texts",
+      "source_gcs_folder": "gl_account_type_texts",
+      "file_delimiter": ",",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "gl_account_type_texts_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "product_categories",
+      "source_gcs_folder": "product_categories",
+      "file_delimiter": ",",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "product_categories_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "product_category_texts",
+      "source_gcs_folder": "product_category_texts",
+      "file_delimiter": ",",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "product_category_texts_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "product_hierarchy",
+      "source_gcs_folder": "product_hierarchy",
+      "file_delimiter": ",",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "product_hierarchy_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "products",
+      "source_gcs_folder": "products",
+      "file_delimiter": ",",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "products_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "product_texts",
+      "source_gcs_folder": "product_texts",
+      "file_delimiter": ",",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "product_texts_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    },
+    {
+      "table_key": "profit_center",
+      "source_gcs_folder": "profit_center",
+      "file_delimiter": ",",
+      "target_bq_dataset": "silver_sap",
+      "target_bq_table": "profit_center_treated",
+      "bq_schema": [],
+      "transformation_config": {}
+    }
+  ]
